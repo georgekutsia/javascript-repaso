@@ -1,11 +1,8 @@
-En base al código siguiente, muestra los mensajes correctos por consola.
-
-```js
 const number1 = 10;
 const number2 = 20;
 const number3 = 2;
 
-// ejemplo
+ ejemplo
 if(number1 === 10){
     console.log('number1 es estrictamente igual a 10')
 }
@@ -33,5 +30,3 @@ if (/* COMPLETAR */) {
 if (/* COMPLETAR */) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
-
-```
