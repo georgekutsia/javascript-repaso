@@ -102,9 +102,7 @@ function checkForMatch () {
         cardOne$$.setAttribute('src', 'public/exercise-1/universe.svg');
         cardTwo$$.setAttribute('src', 'public/exercise-1/universe.svg');
     }
-
     cardsChosen = [];
-
     checkScore();
 }
 
@@ -123,7 +121,6 @@ function flipCard (target$$, i) {
     }
 
 }
-
 function checkScore () {
     score$$.textContent = cardsWon.length;
     attempts$$.textContent = Number(attempts$$.textContent) + 1;

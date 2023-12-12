@@ -517,6 +517,7 @@ function createQuestions () {
             button$$.textContent = question;
             div$$.appendChild(button$$);
         }
+    
         questions$$.appendChild(div$$);
     }
 }

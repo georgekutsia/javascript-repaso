@@ -8,6 +8,8 @@ Dado el siguiente html usa querySelector para mostrar por consola todos los p
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="ejercicio.js"></script>
+
 </head>
 <body>
     <p>Soy el power ranger Amarillo</p>

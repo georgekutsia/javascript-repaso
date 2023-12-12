@@ -1,7 +1,7 @@
 fetch('https://breakingbadapi.com/api/characters').then(res => res.json()).then(characters => {
     createDomCharacters(characters)
 })
-
+console.log()
 const createDomCharacters = (characters) => {
     for (const character of characters) {
         const figure$$ = document.createElement('figure');
